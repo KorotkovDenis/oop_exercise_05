@@ -190,6 +190,7 @@ namespace containers {
     template<class T>
     typename list<T>::forward_iterator &list<T>::forward_iterator::operator++() {
         if (*this != nullptr) {
+
             *this = ptr_->nextf();
             return *this;
         } else {

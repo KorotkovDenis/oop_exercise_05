@@ -17,7 +17,7 @@ int main() {
             int t;
             std::cin >> t;
 
-            std::next(it, t);
+            //std::next(it, t);
             l.erase(l.begin() + t);
             std::cout << "\n";
         }
